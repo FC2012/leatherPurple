@@ -1,0 +1,51 @@
+.row {
+  background: sandybrown; }
+
+.compare {
+  height: 400px;
+  border-top: 5px solid #812121; }
+
+#NAW1 li {
+  font-size: 25px;
+  padding: 0 20px 0 20px;
+  font-family: monospace, sans-serif; }
+  #NAW1 li a:hover {
+    color: wheat; }
+
+#heightImage {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background: brown; }
+  #heightImage img {
+    width: 100%; }
+  #heightImage h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 45px;
+    line-height: 55px;
+    padding: 15px 10px; }
+    #heightImage h2 span {
+      color: firebrick;
+      background: rgba(120, 90, 70, 0.5); }
+
+h3 {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 45px;
+  line-height: 55px;
+  padding: 15px 10px; }
+  h3 span {
+    color: firebrick;
+    background: rgba(120, 90, 70, 0.5); }
+
+#middleImage {
+  padding: 0;
+  overflow: hidden;
+  background: brown; }
+  #middleImage img {
+    width: 100%; }
+
+/*# sourceMappingURL=newstyles.css.map */
