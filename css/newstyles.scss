@@ -1,5 +1,5 @@
 .row {
-  background: sandybrown;
+  background: #122b40;
 }
 
 
@@ -15,7 +15,7 @@
     font-family:monospace, sans-serif;
 
     a:hover {
-      color:wheat;
+      color:orangered;
     };
 
   };
@@ -30,37 +30,23 @@
     width: 100%;
   };
   background:brown;
-
   h2{
     position:absolute;
     top:10px;
     left:10px;
-    font-size: 45px;
-    line-height: 55px;
+    font-size:4em;
+    line-height: 1.5em;
     padding: 15px 10px;
     span{
+        font-family:"Comic Sans MS";
+        color:orangered;
+        text-shadow: 2px 2px 0 black;
 
-        color:firebrick;
-        background: rgba(120,90,70,0.5);
 
     };
   };
 }
 
-h3{
-  position:absolute;
-  top:10px;
-  left:90%;
-  font-size: 45px;
-  line-height: 55px;
-  padding: 15px 10px;
-  span{
-
-    color:firebrick;
-    background: rgba(120,90,70,0.5);
-
-  };
-};
 
 
 
