@@ -1,5 +1,11 @@
+header {
+  margin: 0 0 0 0 ;
+  width: 100%;
+  background-color: #e6e4e4;
+}
+
 .row {
-  background: sandybrown;
+
 }
 
 
@@ -66,7 +72,7 @@ h3{
 
 
 #middleImage{
-
+  position:relative;
   padding: 0;
   overflow: hidden;
   img{
@@ -75,3 +81,156 @@ h3{
   background:brown;
 }
 
+#GRAY {
+  position: absolute;
+  background:rgba(200,90,70,0.9);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+}
+
+.h1cl{
+  background-color:black;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+
+  h1 {
+    text-align:center;
+    font-family:"Comic Sans MS";
+    color:rgba(242, 241, 241,0.8);
+    font-size: 3em;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #0f0f0f;
+  };
+}
+
+.footerClass{
+  background-color: #101010;
+  color: whitesmoke;
+  width: 100%;
+
+  h5{
+    font-size: 4em;
+    padding: 0.5em;
+  }
+  span{
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 2em;
+    padding: 0.2em;
+  }
+}
+
+.rawContactClass{
+  width: 40%  ;
+  display: inline-block;
+  border-right: -0.2em solid red;
+  border-radius: 10px;
+
+}
+
+.rawFooterAdress {
+  border-left: 0.2em solid whitesmoke;
+  border-radius: 10px;
+  float: right;
+  display: inline-block;
+  width: 55%;
+
+  h5{
+    font-size: 4em;
+    padding: 0.5em;
+  }
+
+  span {
+
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    margin-left: 2em;
+    padding: 0.2em;
+
+  };
+}
+
+.footerAdress {
+  margin-left: 15px;
+  margin-top: 15px;
+  border-left: 0.2em solid whitesmoke;
+  border-radius: 10px;
+}
+
+.mainContainer {
+
+  background-color:whitesmoke;
+  width:100%;
+  overflow: hidden;
+
+}
+
+
+
+.section {
+ // background-color:rgba(218, 214, 214,0.9);
+ // border:5px solid rgb(85, 26, 26);
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+.main {
+  display:inline-block;
+  //background-color:rgba(251, 247, 249,0.1);
+  height:370px;
+  width:50%;
+  float: left;
+}
+
+.mainImg1 {
+background:url(../imges/divan1060.jpg) no-repeat  grey;
+}
+
+.mainImg2 {
+  background:url(../imges/chair800.jpg) no-repeat  grey;
+}
+
+.mainImg3 {
+  background:url(../imges/kreslo800.jpg) no-repeat  grey;
+}
+
+.mainImg4 {
+  background:url(../imges/salon800.jpg) no-repeat  grey;
+}
+
+
+.middle {
+  display:inline-block;
+  background-color:rgba(130, 7, 9, 0.5);
+  height:70%;
+  width:100%;
+
+}
+
+h4 {
+  text-align:center;
+  font-family:"Comic Sans MS";
+  color:rgba(242, 241, 241,0.8);
+  font-size: 2em;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #0f0f0f;
+}
+
+.middle:hover {
+  height:0;
+  transition:height 2s;
+}
+
+
+
+// #GRAY:hover {
+//  transform: translateX(100%);
+//  transition-timing-function: ease-out;
+//  transition-duration: 2s;
+//  border-left:30px solid brown;
+// }
